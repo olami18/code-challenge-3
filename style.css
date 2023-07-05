@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#movie-details {
+    text-align: center;
+}
+
+#movie-details img {
+    max-width: 300px;
+}
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+.film.item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.film.item:hover {
+    background-color: #f5f5f5;
+}
+
+.sold-out {
+    color: #999;
+}
